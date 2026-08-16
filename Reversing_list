@@ -1,0 +1,17 @@
+# Take name of 10 students in list and reversing the list.(using for loop)
+
+students = []
+
+for i in range(10):
+     name = input(f"enter name of student {i+1} ")
+     students.append(name)
+
+print(students)
+
+reversed_students = []
+
+for i in range(len(students) - 1, -1, -1):
+     reversed_students.append(students[i])
+
+print("Here is your reversed list ", reversed_students)
+      
