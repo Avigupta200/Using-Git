@@ -2,7 +2,7 @@
 
 students = []
 
-for i in range(10):
+for i in range(2):
      name = input(f"enter name of student {i+1} ")
      students.append(name)
 
@@ -14,4 +14,3 @@ for i in range(len(students) - 1, -1, -1):
      reversed_students.append(students[i])
 
 print("Here is your reversed list ", reversed_students)
-      
